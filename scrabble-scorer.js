@@ -27,7 +27,7 @@ function oldScrabbleScorer(word) {
 	  }
 	}
 	return letterPoints;
- }
+ };
 
 // your job is to finish writing these functions and variables that we've named //
 // don't change the names or your program won't work as expected. //
@@ -47,7 +47,7 @@ function initialPrompt() {
 
    return word;
 
-   }
+   };
 
 
 let newPointStructure = transform(oldPointStructure);
@@ -117,7 +117,7 @@ function scorerPrompt() {
 
    return scoringAlgorithms[choice];
 
-}
+};
 
 function transform(oldPointStructure) {
    let newPointStructure = {};
@@ -131,7 +131,7 @@ function transform(oldPointStructure) {
 
    return newPointStructure;
 
-}
+};
 
 newPointStructure[' '] = 0;
 
